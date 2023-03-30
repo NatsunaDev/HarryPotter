@@ -1,5 +1,3 @@
-package HarryPotter;
-
 public class Enemy extends AbstractEnemy {
     private int damage;
     private Place place;

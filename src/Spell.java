@@ -1,5 +1,3 @@
-package HarryPotter;
-
 public class Spell {
     //// tableau de sort avec chacun leur pourcentage de réussite
     private String spellName;

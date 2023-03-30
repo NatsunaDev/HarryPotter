@@ -1,5 +1,3 @@
-package HarryPotter;
-
 public class Potion {
     private String name;
     private int HealthPoint;

@@ -1,8 +1,7 @@
-package HarryPotter;
-
 import java.util.ArrayList;
+import java.util.Random;
 
-public class Wizard extends Character{
+public class Wizard extends Character {
 
     public Pet pet;
     private Wand wand;
@@ -17,6 +16,8 @@ public class Wizard extends Character{
         this.wand = new Wand(size, core);
     }
 
+    public Wand getWand() {return wand;}
+
     public void setHouse(House randomHouse){
         this.house = randomHouse;
     }
@@ -26,14 +27,29 @@ public class Wizard extends Character{
     }
 
     public int wizardAttack(Spell spell){
+
         /// le sorcier attaque, en fonction de ses chances de réussite, soit il fait perdre des HP, soit il rate
         int chanceReussite = spell.successChance;
-        int random = 55;
-        if (random > chanceReussite){
+        int random = new Random().nextInt(100-1+1)+1;
+        if (random < chanceReussite){
             return attack(spell.damage);
         }
         return 0;
     }
 
+    Pet[] allPet = Pet.values();
+    Pet randomPet = randomElement(allPet);
+    private Pet randomElement(Pet[] allPet) {
+            return randomPet;
+    }
 }
+
+enum Pet {
+    OWL,
+    RAT,
+    CAT,
+    TOAD
+}
+
+
 

@@ -1,5 +1,3 @@
-package HarryPotter;
-
 public class House {
     private String houseName;
 

@@ -1,5 +1,3 @@
-package HarryPotter;
-
 public abstract class Character {
     public String name;
     public int hp, lvl;
@@ -12,6 +10,7 @@ public abstract class Character {
         if(!damage) this.hp += amount;
         else this.hp -= amount;
     }
+
     public void usePotion(Potion potion, String houseName){
         setHp(potion.getHealthPointByHouseName(houseName), false);
     }
