@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b66fe1-751a-4783-8796-8c8939d0b2ef" name="Changes" comment="Ajout de la fonction fight + differents particularité des maisons">
-      <change afterPath="$PROJECT_DIR$/READ ME.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForbiddenSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForbiddenSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wizard.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8b66fe1-751a-4783-8796-8c8939d0b2ef" name="Changes" comment="Ajout des commentaires et de la posibilité de prendre des potion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Fight_sans_function+wand" />
+        <entry key="$PROJECT_DIR$" value="Fight+addspell+houseparticularity" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680276636638</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout des commentaires et de la posibilité de prendre des potion">
+      <created>1680299548104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680299548104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +108,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajoute d'un systeme de combat a modifier + attribution auto d'une wand" />
     <MESSAGE value="Ajout de la fonction fight + differents particularité des maisons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la fonction fight + differents particularité des maisons" />
+    <MESSAGE value="Ajout des commentaires et de la posibilité de prendre des potion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des commentaires et de la posibilité de prendre des potion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
