@@ -1,8 +1,9 @@
-public class Spell {
+public class Spell extends AbstractSpell{
     //// tableau de sort avec chacun leur pourcentage de réussite
-    private String spellName;
+    public String spellName;
     public int successChance;
     public int damage;
+
 
     public Spell(String spellName, int successChance, int damage){
         this.spellName = spellName;

@@ -1,7 +1,7 @@
 public class SortingHat {
 
     public static House randomHouse(int randomNumber){
-        randomNumber = (int) (Math.random()*(4-1));
+        randomNumber = (int) ((Math.random()*(4-1))+1);
         if (randomNumber == 1) {
             return new House("Hufflepuff");
         }

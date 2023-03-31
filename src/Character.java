@@ -14,10 +14,10 @@ public abstract class Character {
     public void usePotion(Potion potion, String houseName){
         setHp(potion.getHealthPointByHouseName(houseName), false);
     }
-    public void takeDamage(int amount){
+    /*public void takeDamage(int amount, String wizardHouse){
         /// ici tu peux check la maison et réduire le nombre de dommage si c'est Gryffindor
-        setHp(amount, true);
-    }
+        setHp(amount, true, );
+    }*/
 
     public int attack(int damage){
         return damage;

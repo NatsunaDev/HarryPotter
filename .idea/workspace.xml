@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8b66fe1-751a-4783-8796-8c8939d0b2ef" name="Changes" comment="">
+    <list default="true" id="a8b66fe1-751a-4783-8796-8c8939d0b2ef" name="Changes" comment="Ajoute d'un systeme de combat a modifier + attribution auto d'une wand">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractEnemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AbstractSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractSpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForbiddenSpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForbiddenSpell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Potion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingHat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spell.java" afterDir="false" />
@@ -27,10 +21,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Fight_sans_function+wand" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +81,19 @@
       <option name="presentableId" value="Default" />
       <updated>1679996348051</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ajoute d'un systeme de combat a modifier + attribution auto d'une wand">
+      <created>1680189283382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189283383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajoute d'un systeme de combat a modifier + attribution auto d'une wand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajoute d'un systeme de combat a modifier + attribution auto d'une wand" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,6 +8,9 @@ public class Enemy extends AbstractEnemy {
         this.damage = damage;
     }
 
+    public int getDamage() {
+        return damage;
+    }
 }
 
 enum Place {

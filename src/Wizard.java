@@ -26,6 +26,13 @@ public class Wizard extends Character {
         return house.getHouseName();
     }
 
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
+    public Pet getPet(){
+        return pet;
+    }
+
     public int wizardAttack(Spell spell){
 
         /// le sorcier attaque, en fonction de ses chances de réussite, soit il fait perdre des HP, soit il rate
@@ -36,11 +43,13 @@ public class Wizard extends Character {
         }
         return 0;
     }
+    public String getSpellName(Spell spell){
+        return spell.spellName;
+    }
 
-    Pet[] allPet = Pet.values();
-    Pet randomPet = randomElement(allPet);
-    private Pet randomElement(Pet[] allPet) {
-            return randomPet;
+    public static Pet randomPet() {
+        int pick = new Random().nextInt(Pet.values().length);
+        return Pet.values()[pick];
     }
 }
 

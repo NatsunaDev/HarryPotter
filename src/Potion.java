@@ -8,8 +8,9 @@ public class Potion {
 
     public int getHealthPointByHouseName(String houseName) {
         if (houseName == "Hufflepuff") {
-            return HealthPoint + 10;
+            System.out.println("Grace a votre maison vos potions sont plus efficaces");
+            return HealthPoint + 100;
         }
-        return HealthPoint;
+        return HealthPoint +25;
     }
 }

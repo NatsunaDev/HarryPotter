@@ -1,3 +1,8 @@
 public abstract class AbstractSpell {
-    public String[] SpellUpgrades = {"","","",""};
+
+    private String spellName;
+    public int successChance;
+    public int damage;
+
+
 }

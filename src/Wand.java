@@ -24,9 +24,9 @@ public class Wand {
     }
 
     public static int randomSize() {
-        return  1;
+        int size = (int) ((Math.random()*(30-10))+10);
+        return size;
     }
-
 
 }
 
