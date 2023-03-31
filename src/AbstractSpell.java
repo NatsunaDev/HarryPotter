@@ -1,5 +1,8 @@
-package HarryPotter;
-
 public abstract class AbstractSpell {
-    public String[] SpellUpgrades = {"","","",""};
+
+    private String spellName;//nom du sort
+    public int successChance;//pourcentage de réussite
+    public int damage;//dommage infligé
+
+
 }

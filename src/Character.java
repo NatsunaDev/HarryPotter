@@ -1,26 +1,25 @@
-package HarryPotter;
-
 public abstract class Character {
     public String name;
     public int hp, lvl;
-    public Character(String name, int hp, int lvl) {
+    public Character(String name, int hp, int lvl) {//constructor
         this.name = name;
         this.hp = hp;
         this.lvl = lvl;
     }
-    public void setHp(int amount, boolean damage){
-        if(!damage) this.hp += amount;
-        else this.hp -= amount;
-    }
-    public void usePotion(Potion potion, String houseName){
-        setHp(potion.getHealthPointByHouseName(houseName), false);
-    }
-    public void takeDamage(int amount){
-        /// ici tu peux check la maison et réduire le nombre de dommage si c'est Gryffindor
-        setHp(amount, true);
+    public void setHp(int amount, boolean damage){//true = damage, false = heal
+        if(!damage) this.hp += amount;//si c'est pas un dommage, on heal
+        else this.hp -= amount;//sinon on prend des dégats
     }
 
-    public int attack(int damage){
+    public void usePotion(Potion potion, String houseName){
+        setHp(potion.getHealthPointByHouseName(houseName), false);//on utilise la potion
+    }
+    public void takeDamage(int amount, String wizardHouse){
+
+        setHp(amount, true );//on prend des dégats
+    }
+
+    public int attack(int damage){//fonction d'attaque
         return damage;
     }
 
