@@ -1,8 +1,8 @@
 public abstract class AbstractSpell {
 
-    private String spellName;
-    public int successChance;
-    public int damage;
+    private String spellName;//nom du sort
+    public int successChance;//pourcentage de réussite
+    public int damage;//dommage infligé
 
 
 }

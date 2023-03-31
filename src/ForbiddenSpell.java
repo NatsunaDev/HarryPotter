@@ -1,2 +1,2 @@
-public class ForbiddenSpell {
+public class ForbiddenSpell extends AbstractSpell {
 }

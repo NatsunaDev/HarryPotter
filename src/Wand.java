@@ -18,19 +18,19 @@ public class Wand {
         return core;
     }
 
-    public static Core randomCore() {
-        int pick = new Random().nextInt(Core.values().length);
+    public static Core randomCore() {//on retourne un coeur aléatoire
+        int pick = new Random().nextInt(Core.values().length);//on choisit un nombre aléatoire entre 0 et 6
         return Core.values()[pick];
     }
 
-    public static int randomSize() {
-        int size = (int) ((Math.random()*(30-10))+10);
+    public static int randomSize() {//on retourne une taille aléatoire
+        int size = (int) ((Math.random()*(30-10))+10);//un nombre aléatoire entre 10 et 30
         return size;
     }
 
 }
 
-enum Core {
+enum Core {//enumération des coeurs
     PHOENIX_FEATHER,
     DRAGON_HEARTSTRING,
     UNICORN_TAIL_HAIR,

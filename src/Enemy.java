@@ -2,7 +2,7 @@ public class Enemy extends AbstractEnemy {
     private int damage;
     private Place place;
 
-    public Enemy(String name, int damage, int hp, Place place, int level){
+    public Enemy(String name, int damage, int hp, Place place, int level){//constructor
         super(name, hp, level);
         this.place = place;
         this.damage = damage;
@@ -13,7 +13,7 @@ public class Enemy extends AbstractEnemy {
     }
 }
 
-enum Place {
+enum Place {//enumération des lieux
     TOILET_OF_DUNGEON,
     CHAMBER_SECRETS,
     FORBIDDEN_FOREST_LAKE,
